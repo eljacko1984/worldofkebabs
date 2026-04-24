@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <title>The world of kebabs</title>
   <style>
     body {
       text-align: center;
       background-size: cover;
       background-color: white;
+      font-family: 'Permanent Marker', cursive; sans-serif;
 
     }
     .tab {
@@ -22,9 +26,10 @@
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 100px;
   transition: 0.3s;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive; sans-serif;
+  
 }
 
 /* Change background color of buttons on hover */
@@ -43,7 +48,8 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive; sans-serif;
+  
 
 }
 .tabcontent {
@@ -59,30 +65,31 @@
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  height: 60%;
+  width: 100%;
+  height: 50%
   padding-bottom: 0px;
 }
     a {
       color: black;
       font: bold;
-      font-family: 'Pacifico', cursive;
+      
     }
     h1 {
       color: black;
-      font-family: 'Pacifico', cursive;
+      font-family: 'Permanent Marker', cursive; sans-serif;
+      
 
     }
     h3 {
       color: black;
-      font-family: 'Pacifico', cursive;
       text-align: center;
+      font-family: 'Permanent Marker', cursive; sans-serif;
 
     }
     p {
       color: black;
-      font-family: 'Pacifico', cursive;
       text-align: left;
+      font-family: 'Permanent Marker', cursive; sans-serif;
 
     }
 
@@ -92,6 +99,7 @@
     @media (max-width: 500px) {
       h1 {
         font-size: 30px;
+        font-family: 'Permanent Marker', cursive; sans-serif;
 
 
       }
@@ -100,10 +108,15 @@
     }
   </style>
 </head>
-<body>
+<header> 
+           
 
-    <img src="https://images.assetsdelivery.com/compings_v2/nsit0108/nsit01082002/nsit0108200200682.jpg" alt="Kebab">
-<h1>The world of Kebabs</h1>
+
+        <div id="header"> 
+            <img src="https://files.fm/thumb_show.php?i=jgse5shy7"/> 
+        </div>
+</header>
+<body>
     <!-- Tab links -->
 <div class="tab">
 <button class="tablinks" onclick="openTab(event, 'Home')"id="defaultOpen"><b>Home</b></button>
@@ -116,7 +129,7 @@
 <div id="Home" class="tabcontent">
 <p>Kebabs are various cooked meat dishes, with their origins in Middle Eastern cuisine. Many variants are popular around the world.
 <p>This website takes a brief look at the history and varities of this popular food.</p>
-<p><small>The text content of this site was lovingly borrowed from the <a href="https://en.wikipedia.org/wiki/Kebab"> Wikipedia article on Kebabs</a></small></div>.
+<p><small>The text content of this site was lovingly borrowed from the <a href="https://en.wikipedia.org/wiki/Kebab" target="_blank"> Wikipedia article on Kebabs</a></small></div>.
 <div id="History" class="tabcontent">
   <h3>History</h3>
   <p>While the word kebab or shish kebab may sometimes be used in English as a culinary term that refers to any type of small chunks of meat cooked on a skewer, kebab is mainly associated with a diversity of meat dishes that originated in the medieval kitchens of Persia and Turkey.Though the word has ancient origins, it was popularized by Turks to refer to this range of grilled and broiled meat, which may be cooked on skewers, but also as stews, meatballs, and other forms. This cuisine has spread around the world, in parallel with Muslim influence. According to Ibn Battuta, a Moroccan traveller, kebab was served in the royal houses during the Delhi Sultanate (1206–1526 CE), and even commoners would enjoy it for breakfast with naan. Kebab dishes have been adopted and integrated with local cooking styles and innovations, from the now-ubiquitous doner kebab fast food, to the many variations of shish kebab, such as the satays of Southeast Asia.</p>
@@ -168,3 +181,6 @@ document.getElementById("defaultOpen").click();
 </script>
 </body>
 </html>
+     
+     
+
